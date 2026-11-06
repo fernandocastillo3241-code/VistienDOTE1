@@ -1,12 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emprendimiento</title>
+    <title>VistienDOTE | Uniformes Empresariales y Bordados</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Fuentes de Google para un diseño moderno y elegante -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
+
+    <!-- Navegación -->
+    <header class="navbar">
+        <div class="logo">Vistien<span>DOTE</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#visitanos">Visítanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Identidad corporativa que <span class="highlight">destaca</span></h1>
+            <p>Especialistas en bordados de alta precisión y uniformes empresariales que proyectan el profesionalismo de tu marca.</p>
+            <a href="#servicios" class="btn-primary">Descubre nuestro trabajo</a>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-tshirt"></i></div>
+                <h3>Uniformes Corporativos</h3>
+                <p>Diseños cómodos, duraderos y elegantes que unifican la imagen de tu equipo de trabajo en la oficina o sucursal.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-hard-hat"></i></div>
+                <h3>Uniformes Industriales</h3>
+                <p>Resistencia y seguridad total para operaciones en campo o planta, sin sacrificar la identidad de tu empresa.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-check-circle"></i></div>
+                <h3>Bordados Premium</h3>
+                <p>Digitalización y bordado computarizado de alta fidelidad para logotipos perfectos en cualquier tipo de tela.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Visítanos (Google Maps) -->
+    <section id="visitanos" class="location">
+        <h2>Visítanos</h2>
+        <div class="location-content">
+            <div class="location-text">
+                <i class="fas fa-map-marker-alt location-icon"></i>
+                <h3>Encuéntranos en Plaza Cosmopol</h3>
+                <p>Vía José López Portillo 1, Bosques del Valle, 55717 Coacalco de Berriozábal, Méx.</p>
+                <p class="location-desc">Agenda una cita y conoce la calidad de nuestras telas y la precisión de nuestros hilos en persona.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Plaza+Cosmopol,+Coacalco,+Estado+de+Mexico" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                    <i class="fas fa-directions"></i> Abrir en Google Maps
+                </a>
+            </div>
+            <div class="map-container">
+                <!-- Mapa interactivo insertado -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.850406830704!2d-99.09700362408331!3d19.633519781685324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f4229497e705%3A0xc3afbfd67b2d2946!2sCosmopol!5e0!3m2!1ses-419!2smx!4v1700000000000!5m2!1ses-419!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/52554321234" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Pie de página -->
+    <footer id="contacto" class="footer">
+        <div class="footer-content">
+            <h3 class="footer-logo">Vistien<span>DOTE</span></h3>
+            <p class="inspiring-quote">"La primera impresión de tu empresa se teje con excelencia. Vistiendo el éxito de tu equipo, una puntada a la vez."</p>
+            <p class="contact-info">Contáctanos vía WhatsApp: <strong>554321234</strong></p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 VistienDOTE. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
